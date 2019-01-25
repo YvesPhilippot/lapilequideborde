@@ -22,3 +22,7 @@ Si après l'utilisation de notre outil, les pages ne vous semble pas claires, ce
 ## Pourquoi est-ce gratuit ?
 
 Notre philosophie a toujours et sera toujours de proposer un outil permettant aux plus démunis de l'anglais de comprendre n'importe quel texte. Nous n'avons pas besoin d'argent, seul la connaissance et le partage nous anime. 
+
+## Est-ce utilisable ?
+
+Pour le moment non. Le développement est encore en cours ! La sombre merde traduction est une techonologie de pointe qui nécessite du temps !
