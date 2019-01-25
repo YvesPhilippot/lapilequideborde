@@ -11,7 +11,7 @@ const AddTranslate = ({ dispatch }) => {
       <Form
         onSubmit={e => {
           e.preventDefault()
-          console.log(input.value);
+         
           if (!input.value.trim()) {
             return
           }
