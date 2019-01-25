@@ -1,18 +1,17 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { addTranslate } from '../actions'
-import { Button, Input } from 'reactstrap';
+import { Button, Input, Label, Form, FormGroup } from 'reactstrap';
 const AddTranslate = ({ dispatch }) => {
   let input
 
   return (
    
     <div>
-      <form
+      <Form
         onSubmit={e => {
           e.preventDefault()
-
-          console.log(input)
+          console.log(input.value);
           if (!input.value.trim()) {
             return
           }
@@ -20,12 +19,16 @@ const AddTranslate = ({ dispatch }) => {
           input.value = ''
         }}
       >
-       <Input type="textarea" name="text" id="exampleText" ref={node => (input = node)} />
-        <br/>
-        <Button type="submit" color="primary">Traduire</Button>
-      </form>
+
+      <FormGroup> 
+        <Label for="translationArea">Votre texte à traduire :</Label>
+       <Input type="textarea" id="translationArea" innerRef={node => (input = node)} />
+        
+        </FormGroup>
+        <Button type="submit" color="primary" id="">Lancer la Sombre merde traduction !</Button>
+
+      </Form>
     </div>
-   
   )
 }
 

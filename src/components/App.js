@@ -1,16 +1,20 @@
 import React from 'react'
 import Header from './Header'
+import Footer from './Footer'
 import AddTranslate from '../containers/AddTranslate'
-import { Alert, Jumbotron} from 'reactstrap';
+import { Jumbotron} from 'reactstrap';
 
 const App = () => (
     <div>
-    <Jumbotron>
+   <Jumbotron>
     <Header></Header>
-    <AddTranslate />            
+ 
+    <AddTranslate /> 
+    <Footer></Footer>                   
     </Jumbotron>
-                    
-     </div>     
+   
+     </div>  
+
 )
 
 export default App
