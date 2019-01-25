@@ -18,6 +18,8 @@ const AddTranslate = ({ dispatch }) => {
           dispatch(addTranslate(input.value))
           input.value = ''
         }}
+
+        // TODO : Gérer la notion de spinner qui s'affiche au click. 
       >
 
       <FormGroup> 

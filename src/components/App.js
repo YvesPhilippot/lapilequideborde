@@ -10,9 +10,9 @@ const App = () => (
     <Header></Header>
  
     <AddTranslate /> 
-    <Footer></Footer>                   
+                 
     </Jumbotron>
-   
+    <Footer></Footer>   
      </div>  
 
 )
