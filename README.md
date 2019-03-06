@@ -9,7 +9,7 @@ La pile qui déborde est avant tout une idée née d'un brainstorming à la mach
 
 > Une erreur de sortie de mémoire plutôt non ?
 
-Oui, bien sûr ! Entre français, il est compliqué de se faire comprendre avec l'abus de termes anglais, encore plus dans notre métier. A partir de là, une suite d'idées vont émerger de cette remarque. Pourquoi Stackoverflow et pas la pile qui déborde ? Nous pourrions offrir un service unique et gratuit de traduction des pages de problèmes ! 
+Oui, bien sûr ! Entres français, il est compliqué de se faire comprendre avec l'abus de termes anglais, encore plus dans notre métier. A partir de là, une suite d'idées vont émerger de cette remarque. Pourquoi Stackoverflow et pas la pile qui déborde ? Nous pourrions offrir un service unique et gratuit de traduction des pages de problèmes ! 
 
 ## On peut déjà traduire des pages en temps réel sur notre navigateur
 
